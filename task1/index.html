@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>task1</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    
+    <section class=" container pt-5">
+        <div>
+            <h2 class=" text-center">write you article now </h2>
+            <input id="article" type="text" class="form-control" placeholder="write your article ....">
+            <button id="addBtn" class=" btn btn-outline-primary my-3 ">Add</button>
+        </div>
+        <div class="bg-light p-5 rounded-3">
+            <ul id="showPlace" class=" list-unstyled">
+
+            </ul>
+        </div>
+
+        <div id="placeOfOne" class=" bg-light p-5 rounded-3 mt-5 d-none">
+            <h2 class=" text-center ">this is the your article </h2>
+            <div id="displayFirst">
+                <h2 id="oneArticle"></h2>
+                <input id="comment" type="text" class="form-control" placeholder="write your comment...">
+                <button id="addComment" class=" btn btn-outline-primary my-3 ">Add comment</button>
+            </div>
+            <div id="display" class=" d-none ">
+
+            </div>
+        </div>
+    </section>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
